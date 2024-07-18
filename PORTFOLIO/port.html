@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat's Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="download.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>WEB DESIGNER</p>
+                    <H1>Hi,I'm <span>Akshat</span> <br>Kumar from India.</H1>
+                </div>
+            </div>
+    </div>
+    <!------------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2024-02-14 at 6.22.00 PM.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="font-size: 25px;">Myself Akshat, and I am from KODERMA(JHARKHAND). 
+                       As a passionate and enthusiastic individual, I am dedicated to
+                       building a successful career in web development. 
+                       My goal is to leverage my skills and knowledge to contribute 
+                       meaningfully to innovative projects while continuously learning 
+                       and growing in this dynamic field.</p>
+                       <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tabs" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web/App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS Development</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023 - CURRENT</span><br>WEB DEVELOPMENT TRAINING AT JSPIDERS</li>
+                            <li><span>2022</span><br>MACHINE LEARNING WITH PYTHON AT ELEARNMARKETS</li>
+                            <li><span>2021</span><br>DIGITAL MARKETING AT GOOGLE</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-2023</span><br>GRADUATION AT SARALA BIRLA UNIVERSITY</li>
+                            <li><span>2018-2020</span><br>BOKARO PUBLIC SCHOOL</li>
+                            <li><span>2017-2018</span><br>PVSS DAV PUBLIC SCHOOL</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------SERVICES----------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEB DESIGN</h2>
+                    <P>A web designer is responsible for creating the design and layout of a website or web pages. Unlike web developers, who specialise in creating new websites' structures and the code that forms these, web designers tend to focus on the visual aspects of a site, such as its layout and its usability.</P>
+                    <a href="https://en.wikipedia.org/wiki/Web_design">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX DESIGN</h2>
+                    <P>The UI UX Designer gathers and evaluates user requirements in collaboration with Product Managers. They use their skills to illustrate design ideas using storyboards, process flows, or sitemaps. They also design graphic user interface elements like menus tab widgets.</P>
+                    <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP DESIGN</h2>
+                    <P>App design is the look and feel of a mobile application. This includes all of the visual elements and interactive elements that impact how the app functions. Mobile app design combines two concepts—UI and UX. The user interface (UI) encompasses the app's look and feel.</P>
+                    <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------------------------PORTFOLIO------------------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-List">
+            <div class="work">
+                <img src="web-design-technology-browsing-programming-concept_53876-163260.avif">
+                <div class="layer">
+                    <h3>CALCULATOR</h3>
+                    <p>A calculator is a machine which allows people to do math operations more easily. 
+                       For example, most calculators will add, subtract, multiply, and divide. Some also 
+                       do square roots, and more complex calculators can help with calculus and draw function graphs.</p>
+                       <a href="http://127.0.0.1:3002/CALC.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="gradient-ui-ux-background_23-2149052117.avif">
+                <div class="layer">
+                    <h3>ANALOG CLOCK</h3>
+                    <p>An analog clock is a tool for reading the time of day. The shortest hand indicates the 
+                        hour, a longer hand indicates the minutes, and the longest arm indicates the seconds. 
+                        Some analog clocks have only two hands: the shorter hand indicating the hour and the 
+                        longer hand indicating the minutes.</p>
+                       <a href="http://127.0.0.1:3002/clk.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pngtree-conceptual-design-for-3d-application-development-and-ui-ux-image_3659741.jpg">
+                <div class="layer">
+                    <h3>OTP GENERATOR</h3>
+                    <p>A one-time password (OTP) is an automatically generated sequence of numeric or alphanumeric 
+                       characters that will authenticate a user for a single login or transaction. It is used in a 
+                       multifactor authentication (MFA) process to secure access to data.</p>
+                       <a href="http://127.0.0.1:3002/OTP.HTML"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.geeksforgeeks.org/web-development-projects/" class="btn">See More</a>
+    </div>
+</div>
+<!-------------------------------------------CONTACT--------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>modikittu070@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9341384252</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="CV_2024013010562779.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i>copyright@Web Developer.Made By Akshat.</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tabs");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tabs");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwANoNFx0DJtz34aCrRadcvBoB8KbboyLKMfB3K222y2IFe-vfoT99dLWsE1-TeEUof2A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
